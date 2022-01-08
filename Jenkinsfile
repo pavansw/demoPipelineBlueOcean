@@ -30,5 +30,11 @@ pipeline {
       }
     }
 
+    stage('Stage4') {
+      steps {
+        echo 'stsge4 step1'
+      }
+    }
+
   }
 }
